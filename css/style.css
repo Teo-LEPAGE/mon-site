@@ -27,42 +27,27 @@ html,body{
     align-items: center;
 }
 
-.carousel{
-    background-size: 10%;
-    carousel-control-width: 15%;
+#carouselExample{
+    margin-bottom: 30px;
 }
 
-.panel:hover{
-    flex:4
+.carousel-caption{
+    color: black;
+    font-size: 3em;
+    position: sticky;
 }
 
-.panel>.titreJeu:hover{
-    opacity: 100%;
+.carousel-inner{
+    height: 850px;
+    width: 100vw;
 }
 
-.minecraft{
-    background-image: url("../img/minecraft.jpg");
+.card{
+    height: 200px;
 }
 
-.tft{
-    background-image: url("../img/tft.jpg");
-    background-size: 80%;
-}
-
-.hades{
-    background-image: url("../img/hades.jpg");
-  
-}
-.overwatch{
-    background-image: url("../img/overwatch.jpg");
-
+nav{
+    position : sticky;
 }
 
 
-.titreJeu{
-    color: white;
-    font-size: 4em;
-    font-family: 'Roboto';
-    opacity: 0%;
-    transition: opacity 1s;
-}
