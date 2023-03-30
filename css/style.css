@@ -3,45 +3,21 @@ html,body{
     padding: 0;
 }
 
-
-.panels{
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-}
-.panel{
-    height: 100%;
-    flex:1;
-    transition: flex 1s;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
+.barrePrincipale{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
 
 #carouselExample{
-    margin-bottom: 30px;
-}
-
-.carousel-caption{
-    color: black;
-    font-size: 3em;
-    position: sticky;
+    margin-bottom: 10vh;
 }
 
 
-.card{
-    height: 20vh;
-}
-
-.Carrousel{
+.carrousel{
     margin: 20vh;
-    margin-top: 2vh;
+    margin-top: 0vh;
+    padding-top: 10vh;
     justify-content: center;
 }
 
@@ -49,6 +25,25 @@ h5{
     font-size: 1.5em;
 }
 
-.pti_texte{
-    font-size: 0.5em;
+.logotft{
+    height: 10em;
+    width: 30em;
+    position: absolute;
+}
+
+.imgtft{
+    z-index: 0;
+}
+
+.carousel-control-prev{
+    z-index: 0;
+}
+
+.card{
+    height: 30vh;
+    margin-bottom: 5vh;
+}
+
+.petiteImage{
+    
 }
