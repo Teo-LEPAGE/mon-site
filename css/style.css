@@ -3,9 +3,6 @@ html,body{
     padding: 0;
 }
 
-.rouge{
-    color: red;
-}
 
 .panels{
     display: flex;
@@ -37,15 +34,21 @@ html,body{
     position: sticky;
 }
 
-.carousel-inner{
-    height: 850px;
-    width: 100vw;
-}
 
 .card{
-    height: 200px;
+    height: 20vh;
 }
 
+.Carrousel{
+    margin: 20vh;
+    margin-top: 2vh;
+    justify-content: center;
+}
 
+h5{
+    font-size: 1.5em;
+}
 
-
+.pti_texte{
+    font-size: 0.5em;
+}
