@@ -23,80 +23,57 @@ html,body{
     text-shadow: 1px 1px 1px rgb(173, 147, 0);
 }
 
-.premierePhrase{
-    font-size: 2em;
+h1{
+    font-size: 75px;
 }
 
-#carouselExample{
-    margin-bottom: 10vh;
-    z-index: 0;
-}
-
-.carrousel{
-    margin: 20vh;
-    margin-top: 0vh;
-    padding-top: 10vh;
-    justify-content: center;
-}
-
-.logotft{
-    height: 10em;
-    width: 30em;
-    position: absolute;
-}
-
-.imgtft{
-    z-index: 0;
-}
-
-.carousel-control-prev,.carousel-control-next{
-    z-index: 0;
-    padding-top: 50vh;
+.texteCarrousel{
+    font-size: 30vh;
 }
 
 .avisPoua{
     margin-bottom: 100px;
 }
 
-.texteAvis{
-    font-size: 40px;
+.titreJeu{
+    font-size: 3em;
+}
+
+.cartePrincipale{
+    font-size: 30px;
     margin-top: 100px;
     margin-bottom: 100px;
-    text-shadow: 1px 1px 1px goldenrod;
-}
-
-.iconesMilieu{
-    height: 100px;
-    width: 100px;
-}
-
-.card{
-    height: 350px;
-    margin-bottom: 5vh;
-    padding-top: 2vh;
-    text-align: center;  
-    align-items: end;  
-}
-
-h2{
-    font-size: 3em;
-    color: goldenrod;
 }
 
 .prixJeu{
     margin-top: 10px;
+    font-size: 1em;
+}
+
+.descJeu{
+    font-size: 0.7em;
+}
+
+
+.carteMilieu{
+    border-radius: 3%;
+}
+
+.grosTitre{
+    font-size: 5em;
+    text-shadow: 2px 2px 1px goldenrod;
+}
+
+.nomCreatures{
+    font-size: 2em;
+    text-shadow: 1px 2px 1px goldenrod;
+}
+
+.texteVideo{
     font-size: 1.5em;
 }
 
-.noteRedaction{
-    font-size: 1.5em;
-}
 
-.etoiles{
-    height: 20px;
-    width: auto;
-    padding-right: 4px;
-}
 
 .titreContact{
     font-size: 60px;
