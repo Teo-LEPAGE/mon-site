@@ -13,26 +13,14 @@ html,body{
     height: 3em;
 }
 
-.intro{
-    color: white;
-    font-size: 1.5em;
-    padding-top: 8vh;
-    margin-right: 30vh;
-    margin-left: 30vh;
-    text-align: center;
-    text-shadow: 1px 1px 1px rgb(173, 147, 0);
-}
 
 h1{
     font-size: 75px;
     text-shadow: 2px 3px 1px black;
 }
 
-.texteCarrousel{
-    font-size: 30vh;
-}
 
-.avisPoua{
+.caracteristiquesBandeau{
     margin-bottom: 100px;
 }
 
@@ -65,7 +53,7 @@ h1{
     text-shadow: 2px 2px 1px goldenrod;
 }
 
-.nomDieux{
+.nomChampions{
     font-size: 2em;
     text-shadow: 1px 2px 1px goldenrod;
 }
