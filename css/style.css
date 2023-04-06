@@ -21,8 +21,8 @@ html,body{
     text-shadow: 1px 1px 1px rgb(173, 147, 0);
 }
 
-.premierePhrase{
-    font-size: 2em;
+h1{
+    font-size: 2.5em;
 }
 
 #carouselExample{
